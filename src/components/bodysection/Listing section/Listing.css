@@ -1,1 +1,102 @@
-/* No CSS *//*# sourceMappingURL=Listing.css.map */
+:root {
+  --primaryColor: hsl(94, 59%, 35%);
+  --HoverColor: #bdf094;
+  --paleGreen: hsl(96, 75%, 89%);
+  --whiteColor: hsl(0, 0%, 100%);
+  --textColor: hsl(240, 1%, 48%);
+  --blackColor: hsl(0, 0%, 18%);
+  --bgColor: hsl(220, 10%, 94%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: hsl(330, 12%, 97%);
+  /* Font ang Typography */
+  --biggestFontSize: 2.5rem;
+  --h1FontSize: 1.5rem;
+  --h2FontSize: 1.25rem;
+  --h3FontSize: 1rem;
+  --normalFontSize: 0.938rem;
+  --smallFontSize: 0.813rem;
+  --smallestFontSize: 0.75rem;
+}
+
+.listingSection {
+  -ms-flex-preferred-size: 75%;
+      flex-basis: 75%;
+}
+
+.listingSection .heading {
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.listingSection .heading h1 {
+  font-size: var(--h2FontSize);
+  color: var(--blackColor);
+  font-weight: 700;
+}
+
+.listingSection .heading .btn {
+  border: 1px solid transparent;
+  font-weight: 500;
+  padding: 0.9rem;
+}
+
+.listingSection .heading .btn:hover {
+  border: 1px solid var(--primaryColor);
+  border-radius: 4px;
+}
+
+.listingSection .secContainer {
+  width: 100%;
+  margin: 1rem 0;
+  gap: 1rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.listingSection .secContainer .singleItem {
+  position: relative;
+  width: 150px;
+  height: 170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem;
+  border-radius: 10px;
+  background: var(--whiteColor);
+}
+
+.listingSection .secContainer .singleItem:hover {
+  background: var(--paleGreen);
+  -webkit-box-shadow: 0 2px 2px var(--inputColor);
+          box-shadow: 0 2px 2px var(--inputColor);
+}
+
+.listingSection .secContainer .singleItem img {
+  max-width: 100px;
+}
+
+.listingSection .secContainer .singleItem .icon {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  color: var(--primaryColor);
+}
+
+.listingSection .secContainer .singleItem h3 {
+  font-size: var(--h3FontSize);
+  color: var(--blackColor);
+  padding: 1rem 0;
+}
+/*# sourceMappingURL=Listing.css.map */
