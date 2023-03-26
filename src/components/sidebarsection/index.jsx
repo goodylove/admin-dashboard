@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../.././assets/Logo (1).png";
 import { IoMdSpeedometer } from "react-icons/io";
 import { AiOutlineLineChart } from "react-icons/ai";
-import { BsTrophy, BsCreditCard2Front } from "react-icons/bs";
+import { BsTrophy, BsCreditCard2Front, BsQuestionCircle } from "react-icons/bs";
 import { BiTrendingUp } from "react-icons/bi";
 
 import {
@@ -76,6 +76,16 @@ const SideBar = () => {
             </a>
           </li>
         </ul>
+      </div>
+      <div className="sideBarCard">
+        <BsQuestionCircle className="icon" />
+        <div className="cardContent">
+          <div className="circle1"></div>
+          <div className="circle2"></div>
+          <h3>Help Center</h3>
+          <p>Having trouble in planti,please contact us for more Questions.</p>
+          <button className="btn"> Go to help center</button>
+        </div>
       </div>
     </div>
   );
