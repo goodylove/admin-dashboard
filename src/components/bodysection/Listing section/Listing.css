@@ -99,4 +99,71 @@
   color: var(--blackColor);
   padding: 1rem 0;
 }
+
+.listingSection .sellers {
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.listingSection .sellers .topsellers .heading,
+.listingSection .sellers .featuredsellers .heading {
+  padding: 1rem 0;
+}
+
+.listingSection .sellers .topsellers .heading .btn,
+.listingSection .sellers .featuredsellers .heading .btn {
+  padding: 0.5rem 1rem;
+}
+
+.listingSection .sellers .topsellers .card,
+.listingSection .sellers .featuredsellers .card {
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+  background: var(--whiteColor);
+  gap: 1rem;
+  -webkit-box-shadow: 0 2px 4px var(--inputColor);
+          box-shadow: 0 2px 4px var(--inputColor);
+}
+
+.listingSection .sellers .topsellers .card .users,
+.listingSection .sellers .featuredsellers .card .users {
+  padding-right: 1rem;
+  border-right: 2px solid var(--greyText);
+}
+
+.listingSection .sellers .topsellers .card .users img,
+.listingSection .sellers .featuredsellers .card .users img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 2px solid var(--inputColor);
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.listingSection .sellers .topsellers .card .users img:hover,
+.listingSection .sellers .featuredsellers .card .users img:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.listingSection .sellers .topsellers .card .cardText span,
+.listingSection .sellers .featuredsellers .card .cardText span {
+  color: var(--blackColor);
+  font-weight: 500;
+}
+
+.listingSection .sellers .topsellers .card .cardText span small,
+.listingSection .sellers .featuredsellers .card .cardText span small {
+  font-weight: 400;
+}
+
+.listingSection .sellers .topsellers .card .cardText span small .date,
+.listingSection .sellers .featuredsellers .card .cardText span small .date {
+  margin-left: 1rem;
+}
 /*# sourceMappingURL=Listing.css.map */
