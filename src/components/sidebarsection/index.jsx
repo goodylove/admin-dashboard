@@ -1,8 +1,15 @@
 import React from "react";
 import logo from "../.././assets/Logo (1).png";
 import { IoMdSpeedometer } from "react-icons/io";
-import { BsTrophy } from "react-icons/bs";
-import { MdDeliveryDining, MdOutlineExplore } from "react-icons/md";
+import { AiOutlineLineChart } from "react-icons/ai";
+import { BsTrophy, BsCreditCard2Front } from "react-icons/bs";
+import { BiTrendingUp } from "react-icons/bi";
+
+import {
+  MdDeliveryDining,
+  MdOutlineExplore,
+  MdOutlinePermContactCalendar,
+} from "react-icons/md";
 import "./Sidebar.css";
 
 const SideBar = () => {
@@ -24,19 +31,19 @@ const SideBar = () => {
           <li className="listItem">
             <a href="#" className="menuLink flex">
               <MdDeliveryDining className="icon" />
-              <span className="smallTextt"> my orders</span>
+              <span className="smallTextt"> Myorders</span>
             </a>
           </li>
           <li className="listItem">
             <a href="#" className="menuLink flex">
               <MdOutlineExplore className="icon" />
-              <span className="smallTextt">explore</span>
+              <span className="smallTextt">Explore</span>
             </a>
           </li>
           <li className="listItem">
             <a href="#" className="menuLink flex">
               <BsTrophy className="icon" />
-              <span className="smallTextt">products</span>
+              <span className="smallTextt">Products</span>
             </a>
           </li>
         </ul>
@@ -46,26 +53,26 @@ const SideBar = () => {
         <ul className="menuList grid">
           <li className="listItem">
             <a href="#" className="menuLink flex">
-              <IoMdSpeedometer className="icon" />
-              <span className="smallTextt">Dash board</span>
+              <AiOutlineLineChart className="icon" />
+              <span className="smallTextt">Chart</span>
             </a>
           </li>
           <li className="listItem">
             <a href="#" className="menuLink flex">
-              <MdDeliveryDining className="icon" />
-              <span className="smallTextt"> my orders</span>
+              <BiTrendingUp className="icon" />
+              <span className="smallTextt"> Trends</span>
             </a>
           </li>
           <li className="listItem">
             <a href="#" className="menuLink flex">
-              <MdOutlineExplore className="icon" />
-              <span className="smallTextt">explore</span>
+              <MdOutlinePermContactCalendar className="icon" />
+              <span className="smallTextt">Contact</span>
             </a>
           </li>
           <li className="listItem">
             <a href="#" className="menuLink flex">
-              <BsTrophy className="icon" />
-              <span className="smallTextt">products</span>
+              <BsCreditCard2Front className="icon" />
+              <span className="smallTextt">Billings</span>
             </a>
           </li>
         </ul>
