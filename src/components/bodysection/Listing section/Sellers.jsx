@@ -1,16 +1,10 @@
+import Button from "./../../button/index";
 import React from "react";
 
-const Sellers = ({ item, img, head, icon, text1, text2, text3 }) => {
-  //   const { text1, text2, text3, head, icon } = item;
-
+const Sellers = ({ img, head, text1, text2, text3 }) => {
   return (
     <div className="topsellers">
-      <div className="heading flex">
-        <h3>{head}</h3>
-        <button className="btn flex">
-          see All <div className="icon"> {icon}</div>
-        </button>
-      </div>
+      <Button text={head} />
 
       <div className="card flex">
         <div className="users">
@@ -23,7 +17,7 @@ const Sellers = ({ item, img, head, icon, text1, text2, text3 }) => {
             {text1}
             <br />
             <small>
-              {text2} <span className="date"> {text3}</span>
+              {text2} <span className="date">{text3}</span>
             </small>
           </span>
         </div>

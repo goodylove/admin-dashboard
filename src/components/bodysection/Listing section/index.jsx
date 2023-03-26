@@ -10,6 +10,7 @@ import { BsArrowRightShort } from "react-icons/bs";
 import { AiFillHeart, AiOutlineHeart } from "react-icons/ai";
 import Sellers from "./Sellers";
 import Tree from "./Tress";
+import Button from "./../../button/index";
 
 import "./Listing.css";
 
@@ -58,12 +59,7 @@ const SellersCon = [
 const Listing = () => {
   return (
     <div className="listingSection">
-      <div className="heading flex">
-        <h1>My Listing</h1>
-        <button className="btn flex">
-          Sell All <BsArrowRightShort className="icon" />
-        </button>
-      </div>
+      <Button text={"My Listing"} />
 
       <div className="secContainer flex">
         {TreeImg.map((item, index) => (

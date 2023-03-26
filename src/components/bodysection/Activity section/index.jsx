@@ -2,7 +2,7 @@ import React from "react";
 import "./activity.css";
 
 const Activity = () => {
-  return <div>Activity</div>;
+  return <div className="activitySection"></div>;
 };
 
 export default Activity;
