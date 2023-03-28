@@ -12,4 +12,13 @@
       -ms-flex-align: start;
           align-items: flex-start;
 }
+
+@media screen and (max-width: 918px) {
+  .bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 /*# sourceMappingURL=body.css.map */

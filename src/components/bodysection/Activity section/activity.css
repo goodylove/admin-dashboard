@@ -92,4 +92,10 @@
   color: var(--textColor);
   font-size: var(--smallFontSize);
 }
+
+@media screen and (max-width: 918px) {
+  .activitySection {
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=activity.css.map */

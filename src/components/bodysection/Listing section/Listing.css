@@ -166,4 +166,34 @@
 .listingSection .sellers .featuredsellers .card .cardText span small .date {
   margin-left: 1rem;
 }
+
+@media screen and (max-width: 990px) {
+  .listingSection .sellers .card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 918px) {
+  .listingSection .singleItem {
+    width: 200px !important;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .listingSection .sellers {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .listingSection .sellers .card {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
 /*# sourceMappingURL=Listing.css.map */
