@@ -1,1 +1,68 @@
-/* No CSS *//*# sourceMappingURL=activity.css.map */
+:root {
+  --primaryColor: hsl(94, 59%, 35%);
+  --HoverColor: #bdf094;
+  --paleGreen: hsl(96, 75%, 89%);
+  --whiteColor: hsl(0, 0%, 100%);
+  --textColor: hsl(240, 1%, 48%);
+  --blackColor: hsl(0, 0%, 18%);
+  --bgColor: hsl(220, 10%, 94%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: hsl(330, 12%, 97%);
+  /* Font ang Typography */
+  --biggestFontSize: 2.5rem;
+  --h1FontSize: 1.5rem;
+  --h2FontSize: 1.25rem;
+  --h3FontSize: 1rem;
+  --normalFontSize: 0.938rem;
+  --smallFontSize: 0.813rem;
+  --smallestFontSize: 0.75rem;
+}
+
+.activitySection {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.activitySection .secContainer {
+  margin-top: 1rem;
+}
+
+.activitySection .secContainer .singleCustomer {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.activitySection .secContainer .singleCustomer img {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 2px 4px var(--inputColor);
+          box-shadow: 0 2px 4px var(--inputColor);
+  margin-right: 1rem;
+}
+
+.activitySection .secContainer .singleCustomer .customerDetails {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.activitySection .secContainer .singleCustomer .customerDetails .name {
+  font-size: var(--h3FontSize);
+  font-weight: 600;
+  color: var(--blackColor);
+  display: block;
+}
+
+.activitySection .secContainer .singleCustomer .customerDetails small {
+  font-weight: 500;
+  color: var(--textColor);
+  font-size: var(--smallFontSize);
+}
+/*# sourceMappingURL=activity.css.map */

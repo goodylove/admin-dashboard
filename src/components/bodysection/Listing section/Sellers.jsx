@@ -4,7 +4,7 @@ import React from "react";
 const Sellers = ({ img, head, text1, text2, text3 }) => {
   return (
     <div className="topsellers">
-      <Button text={head} />
+      <Button text={head} className={"heading flex"} />
 
       <div className="card flex">
         <div className="users">

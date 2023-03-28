@@ -59,7 +59,7 @@ const SellersCon = [
 const Listing = () => {
   return (
     <div className="listingSection">
-      <Button text={"My Listing"} />
+      <Button text={"My Listing"} className={"heading flex"} />
 
       <div className="secContainer flex">
         {TreeImg.map((item, index) => (
