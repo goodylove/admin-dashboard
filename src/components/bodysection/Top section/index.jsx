@@ -3,7 +3,7 @@ import AdminImage from "../../.././assets/source03.jpg";
 import VaseImage from "../../.././assets/main.png";
 import VideoImg from "../../.././assets/Grass - 66810.mp4";
 import { BiSearchAlt } from "react-icons/bi";
-import { BsArrowRightShort } from "react-icons/bs";
+import { BsArrowRightShort, BsQuestionCircle } from "react-icons/bs";
 import { TbMessageCircle } from "react-icons/tb";
 import { MdOutlineNotificationsNone } from "react-icons/md";
 import "./Top.css";
@@ -64,19 +64,18 @@ const Top = () => {
             <div className="imgDiv">
               <img src={VaseImage} alt="" />
             </div>
-
-            {/* <div className="sideBarCard">
-              <BsQuestionCircle className="icon" />
-              <div className="cardContent">
-                <div className="circle1"></div>
-                <div className="circle2"></div>
-                <h3>Help Center</h3>
-                <p>
-                  Having trouble in planti,please contact us for more Questions.
-                </p>
-                <button className="btn"> Go to help center</button>
-              </div>
-            </div> */}
+          </div>
+          <div className="sideBarCard">
+            <BsQuestionCircle className="icon" />
+            <div className="cardContent">
+              <div className="circle1"></div>
+              <div className="circle2"></div>
+              <h3>Help Center</h3>
+              <p>
+                Having trouble in planti,please contact us for more Questions.
+              </p>
+              <button className="btn"> Go to help center</button>
+            </div>
           </div>
         </div>
       </div>

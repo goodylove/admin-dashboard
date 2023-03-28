@@ -45,6 +45,12 @@
       align-items: flex-start;
       justify-content: space-between;
 
+      .duration {
+        color: var(--textColor);
+        font-weight: 500;
+        font-size: var(--smallestFontSize);
+      }
+
       img {
         width: 40px;
         height: 40px;
@@ -67,11 +73,6 @@
           color: var(--textColor);
           font-size: var(--smallFontSize);
         }
-      }
-      .duration {
-        color: var(--textColor);
-        font-weight: 500;
-        font-size: var(--smallestFontSize);
       }
     }
   }

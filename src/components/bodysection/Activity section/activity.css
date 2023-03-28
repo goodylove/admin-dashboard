@@ -23,6 +23,27 @@
       flex-basis: 50%;
 }
 
+.activitySection .heading {
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.activitySection .heading h1 {
+  font-size: var();
+  font-weight: 600;
+  color: var(--blackColor);
+}
+
+.activitySection .heading .btn {
+  border: 1px solid transparent;
+}
+
+.activitySection .heading .btn:hover {
+  border: 1px solid var(--primaryColor);
+}
+
 .activitySection .secContainer {
   margin-top: 1rem;
 }
@@ -34,6 +55,12 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.activitySection .secContainer .singleCustomer .duration {
+  color: var(--textColor);
+  font-weight: 500;
+  font-size: var(--smallestFontSize);
 }
 
 .activitySection .secContainer .singleCustomer img {
